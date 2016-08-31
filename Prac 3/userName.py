@@ -10,7 +10,7 @@ def main():
 
 def method_name(userName):
     increment = int(input("Enter increment number: "))
-    print(userName[1::increment])
+    print(userName[0::increment])
 
 
 def get_name():
